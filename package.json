@@ -1,0 +1,22 @@
+{
+  "name": "ttc-hogwarts-lego",
+  "version": "1.0.0",
+  "description": "a webpage for the club activity of Trender Toy Company, to make their mini-me and phylosopgy test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunshou-Liu/TTC-Hogwarts-Lego.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunshou-Liu/TTC-Hogwarts-Lego/issues"
+  },
+  "homepage": "https://github.com/chunshou-Liu/TTC-Hogwarts-Lego#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
