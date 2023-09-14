@@ -47,17 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* index page */
-label{
-	color:black;
-	text-align: center;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-body{
-	background-color: black;
-}
-
+/* common usage */
 /* highlighted color */
 ::selection {
 	background: #000;
@@ -69,4 +59,19 @@ body{
 	visibility: hidden;
 	opacity: 0;
 	transition: visibility 0s 2s, opacity 2s linear;
+  }
+
+/* index page */
+label{
+	color:black;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+	background-color: black;
+}
+
+/* questions page */
+  .question{
+	border-left: 10px solid blue;
   }
