@@ -37,8 +37,6 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Include _assets
-        run: cp -r _assets _site/_assets 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
 
