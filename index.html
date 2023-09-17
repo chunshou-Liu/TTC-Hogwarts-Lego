@@ -5,20 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <title>HOGWARTS x TTC</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
     <script src="js/interactive.js"></script>
     <audio src="data/HarryPotterThemeSong.mp3" autoplay loop></audio>
 </head>
 
-<body>
-    
-    <form>
-        <label id="psid">01010000 01010011 01001001 01000100</label><br>
-        <div type="text" id="Note" class="hidden"><input type="password" id="psid"></div>
-        <div type="text" id="Submit" class="hidden"><input type="submit" value="Submit"></div>
+<body class="vh-100 d-flex align-items-center justify-content-center bg-dark">
+
+    <form class="container-fluid">
+        <div class="row flex-column justify-content-center align-items-center gy-3">
+            <div class="col-lg-8 text-center">
+                <h1 id="psid" class="font-monospace fs-lg-2">01010000 01010011 01001001 01000100</h1>
+            </div>
+            <div type="text" id="Note" class="hidden col-lg-6">
+                <input class="form-control " type="password" id="psid">
+            </div>
+            <div type="text" id="Submit" class=" col-2">
+                <a class="btn btn-info" href="./textContent.html" >Submit</a>
+            </div>
+
+        </div>
+        
     </form>
-    
+
 </body>
 
 </html>
